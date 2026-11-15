@@ -1,4 +1,4 @@
-# BASH-FILE-INTEGRITY-CHECK
+# BASH-POWERSHELL-FILE-INTEGRITY-CHECK-SCRIPTS
 A pair of menu-driven scripts that detect unauthorized changes and file  tampering, and give an at-a-glance encryption/privacy status of your files.
 The same four-option menu on both platforms:
 1.	Create a baseline SHA-256 manifest of a folder
