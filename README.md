@@ -21,6 +21,7 @@ manifest. The report lists MODIFIED, MISSING, and NEW files, then prints
 
 PASS or FAIL.
 Quick start — Windows
+Right click script, choooe Run with PowerShell
 .\Check-FileIntegrity.ps1
 # If script execution is blocked:
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Check-FileIntegrity.ps1
