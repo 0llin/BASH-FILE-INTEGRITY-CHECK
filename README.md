@@ -9,6 +9,9 @@ Linux: encrypted-filesystem detection + world-readable permission audit)
 4.	Hash a single file and compare it with a published checksum
 No dependencies beyond the shell: PowerShell on Windows, Bash + coreutils
 
+chmod +x check-file-integrity
+./check-file-integrity.sh
+
 (sha256sum, stat, find, findmnt) on Linux.
 How it works
 ·	Baseline (option 1): every file under the chosen folder is hashed with
